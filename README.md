@@ -31,6 +31,8 @@
         - Hours worked per week, hourly wage
       - Both employee types also display weekly salary, vacation days, and healthcare contributions
         - These are calculated differently for pro vs. non pro employees
+        - Vacation days and healthcare contributions are displayed for yearly amounts, but were calculated based off of weekly earnings (for nonprofessionals)
+          - For professionals, these two fields are based off of days worked in a year and salary 
 
   - Use linked list (For the purposes of this program I instantiated the linked list using type int)
     - This function brings up another menu that provides the user options to try the linked list functions

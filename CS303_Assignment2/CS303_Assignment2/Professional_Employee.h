@@ -1,8 +1,5 @@
 #pragma once
 
-#ifndef PROFESSIONAL_EMPLOYEE_H_
-#define PROFESSIONAL_EMPLOYEE_H_
-
 #include "Employee.h"
 
 class Professional_Employee : public Employee {
@@ -28,4 +25,3 @@ public:
 	void setMonthlySalary(double m) { monthlySalary = m; }
 };
 
-#endif // !PROFESSIONAL_EMPLOYEE_H_

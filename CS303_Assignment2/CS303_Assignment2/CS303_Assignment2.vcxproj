@@ -131,9 +131,11 @@
     <ClCompile Include="Employee.cpp" />
     <ClCompile Include="Nonprofessional_Employee.cpp" />
     <ClCompile Include="Professional_Employee.cpp" />
+    <ClCompile Include="Program_Functions.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Employee.h" />
+    <ClInclude Include="Program_Functions.h" />
     <ClInclude Include="Single_Linked_List.h" />
     <ClInclude Include="Nonprofessional_Employee.h" />
     <ClInclude Include="Professional_Employee.h" />

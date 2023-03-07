@@ -1,8 +1,5 @@
 #pragma once
 
-#ifndef EMPLOYEE_H_
-#define EMPLOYEE_H_
-
 #include <string>
 
 using namespace std;
@@ -24,7 +21,7 @@ public:
 	virtual double calcHealthCareContribution() = 0;
 	virtual double calcVacationDays() = 0;
 
-	virtual void displayEmployeeInfo() const;
+	virtual void displayEmployeeInfo();
 
 	// Getters and Setters
 	string getlName()   { return lName; }
@@ -38,4 +35,3 @@ public:
 	void setAge(int a)        { age = a; }
 };
 
-#endif // !EMPLOYEE_H_

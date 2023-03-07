@@ -26,7 +26,7 @@ double Professional_Employee::calcHealthCareContribution() {
 
 double Professional_Employee::calcVacationDays() {
 	double vacationDays;
-	double percentWorked = (daysWorked / 365);
+	double percentWorked = (static_cast<double>(daysWorked) / 365);
 
 	// multiply by accrual rate (10 days in this case)
 	vacationDays = percentWorked * 10;

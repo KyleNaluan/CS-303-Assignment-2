@@ -16,7 +16,7 @@ Employee::Employee(string l, string f, char g, int a) {
 	age = a;
 }
 
-void Employee::displayEmployeeInfo() const {
+void Employee::displayEmployeeInfo() {
 	cout << "Name: " << fName << " " << lName << endl;
 	cout << "   - Age:    " << age << endl;
 	cout << "   - Gender: " << gender << endl;

@@ -1,8 +1,5 @@
 #pragma once
 
-#ifndef NONPROFESSIONAL_EMPLOYEE_H_
-#define NONPROFESSIONAL_EMPLOYEE_H_
-
 #include "Employee.h"
 
 class Nonprofessional_Employee : public Employee {
@@ -30,4 +27,3 @@ public:
 	void setPayRate(int p) { payRate = p; }
 };
 
-#endif // !NONPROFESSIONAL_EMPLOYEE_H_
